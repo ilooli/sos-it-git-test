@@ -1,0 +1,24 @@
+# .gitignore
+
+# Ignorovať súbory vygenerované IDE
+.idea/
+.vscode/
+
+# Ignorovať súbory vygenerované používateľmi
+.DS_Store
+Thumbs.db
+
+# Ignorovať súbory vygenerované pri zostavení projektu
+/build/
+/dist/
+/node_modules/
+
+# Ignorovať súbory vygenerované pri správe prostredia
+.env
+.env.local
+
+# Ignorovať súbory s osobnými nastaveniami
+*.secret
+
+# Ignorovať súbory s cache
+.cache/
